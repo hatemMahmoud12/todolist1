@@ -286,3 +286,20 @@ task2.innerHTML = window.localStorage.getItem("task_2");
 task3.innerHTML = window.localStorage.getItem("task_3");
 task4.innerHTML = window.localStorage.getItem("task_4");
 task5.innerHTML = window.localStorage.getItem("task_5");
+
+
+if(task1.innerHTML.length <= 0){
+    task1.innerHTML="عدل مهمتك";
+   }
+if(task2.innerHTML.length <= 0){
+    task2.innerHTML="عدل مهمتك";
+   }
+if(task3.innerHTML.length <= 0){
+    task3.innerHTML="عدل مهمتك";
+   }
+if(task4.innerHTML.length <= 0){
+    task4.innerHTML="عدل مهمتك";
+   }
+if(task5.innerHTML.length <= 0){
+    task5.innerHTML="عدل مهمتك";
+   }
