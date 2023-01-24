@@ -1,0 +1,139 @@
+ @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: "cairo";
+    direction: rtl;
+    border: none;
+}
+
+/** add-container **/
+
+#add-container{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+#add-text{
+    margin-right: 20px;
+    font-size: 18px;
+    color: black;
+    border: solid #dfdfdf 1px;
+    background: #dfdfdf;
+    border-radius: 10px;
+    padding: 7px 10px;
+    margin-left: 20px;
+}
+#add-container i{
+    background: white;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 10px;
+    color: cornflowerblue; 
+    cursor: pointer;
+}
+
+
+/** tasks **/
+
+.tasks{
+    display: block;
+}
+
+.list-item{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    background: #dfdfdf;
+    padding: 30px;
+    border-radius: 20px;
+
+}
+.list-item i{
+    background: white;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 10px;
+    color: cornflowerblue;  
+    cursor: pointer;
+}
+.list-item p{
+    font-size: 18px;
+    text-align: center;
+}
+#cancel1 , #cancel2 , #cancel3 ,#cancel4 ,#cancel5{
+    display: none;
+} 
+/** app **/
+
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app .btn{
+    background: cornflowerblue;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s all linear;
+}
+@media(max-width: 480px){
+    .list-item p{
+        font-size: 18px;
+    }
+    .list-item i{
+        font-size: 17px;
+    }
+    #add-container i{
+        font-size: 17px;
+    }
+    #add-text{
+        width: 60%;
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 370px){
+    .list-item p{
+        font-size: 15px;
+    }
+    .list-item i{
+        font-size: 15px;
+    }
+    #add-container i{
+        font-size: 16px;
+    }
+    #add-text{
+        width: 50%;
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 258px){
+    .list-item{
+        margin: 5px;
+    }
+    .list-item p{
+        font-size: 12px;
+        padding: 20px;
+        display: block;
+    }
+    .list-item i{
+        font-size: 12px;
+    }
+    #add-container i{
+        font-size: 12px;
+    }
+    #add-text{
+        width: 50%;
+        font-size: 12px;
+    }
+}
