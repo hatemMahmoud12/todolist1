@@ -78,7 +78,7 @@ cancel_5.style.display = window.localStorage.getItem("cancel_five");
 // functions
 // check خلص
 function check1(){
-    list_item1.style.background="cornflowerblue";
+    list_item1.style.background="#dc653a";
     task1.style.color="white";
     task1.style.textDecoration="line-through";
     check_1.style.display="none";
@@ -91,7 +91,7 @@ function check1(){
     
 }
 function check2(){
-    list_item2.style.background="cornflowerblue";
+    list_item2.style.background="#dc653a";
     task2.style.color="white";
     task2.style.textDecoration="line-through";
     check_2.style.display="none";
@@ -103,7 +103,7 @@ function check2(){
     window.localStorage.setItem("check_two",check_2.style.display);    
 }
 function check3(){
-    list_item3.style.background="cornflowerblue";
+    list_item3.style.background="#dc653a";
     task3.style.color="white";
     task3.style.textDecoration="line-through";
     check_3.style.display="none";
@@ -115,7 +115,7 @@ function check3(){
     window.localStorage.setItem("check_three",check_3.style.display);    
 }
 function check4(){
-    list_item4.style.background="cornflowerblue";
+    list_item4.style.background="#dc653a";
     task4.style.color="white";
     task4.style.textDecoration="line-through";
     check_4.style.display="none";
@@ -127,7 +127,7 @@ function check4(){
     window.localStorage.setItem("check_four",check_4.style.display);    
 }
 function check5(){
-    list_item5.style.background="cornflowerblue";
+    list_item5.style.background="#dc653a";
     task5.style.color="white";
     task5.style.textDecoration="line-through";
     check_5.style.display="none";
