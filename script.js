@@ -303,3 +303,4 @@ if(task4.innerHTML.length <= 0){
 if(task5.innerHTML.length <= 0){
     task5.innerHTML="عدل مهمتك";
    }
+         (adsbygoogle = window.adsbygoogle || []).push({});
